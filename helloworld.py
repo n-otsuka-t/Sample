@@ -60,3 +60,5 @@ hello()
 aList = [1, 2, 3]
 print("filterの検証です。" + str(filter(a.isodd, aList)))
 
+# リスト内包表記
+print("リスト内包表記の検証です。" + str([i for i in xrange(1, 21) if i % 2 == 0]))
